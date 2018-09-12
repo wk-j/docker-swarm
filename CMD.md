@@ -27,6 +27,7 @@ docker node ls
 
 # deploy
 docker service create --name docker-cloud --publish 8080:80 wearetherock/docker-cloud:latest
+docker service ls
 
 
 docker-machine ls
